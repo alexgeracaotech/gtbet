@@ -1,0 +1,16 @@
+.search {
+    width: 80%;
+    height: 4rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--color--opacity);
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--color--secondary);
+    font-size: 1.5rem;
+
+
+    &::-webkit-input-placeholder {
+        color: var(--color--tertiary);
+     }
+}

@@ -1,0 +1,42 @@
+.aside {
+    width: 20rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 0 0 2rem;
+    overflow-y: scroll;
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        color: var(--color--money)
+    }
+}
+
+.on, .az {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    .category {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        img {
+            width: 2rem;
+        }
+    
+        a {
+            text-decoration: none;
+            color: var(--color--secondary);
+            font-size: 1.5rem;
+
+            &:hover {
+                color: var(--color--money);
+            }
+        }
+    }
+}

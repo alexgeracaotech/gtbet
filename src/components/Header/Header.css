@@ -1,0 +1,89 @@
+.header {
+    width: 100%;
+    
+    .heading {
+        width: 144rem;
+        height: 7rem;
+        background-color: var(--color--victory);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 2rem;
+
+        .logo {
+            font-size: 4rem;
+            font-weight: 900;
+            color: var(--color--secondary);
+
+            span {
+                color: var(--color--emphasis);
+            }
+        }
+
+        div {
+            ul {
+                display: flex;
+                gap: 1rem;
+
+                li {
+                    list-style-type: none;
+                    
+                    a {
+                        border-radius: 0.5rem;
+                        text-decoration: none;
+                        background-color: var(--color--emphasis);
+                        color: var(--color--primary);
+                        font-size: 1.5rem;
+                        padding: 1rem 1rem;
+
+                        &:hover {
+                            color: var(--color--secondary);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .navegation {
+        width: 144rem;
+        height: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 2rem;
+
+        ul {
+            display: flex;
+            gap: 1rem;
+
+            li {
+                list-style-type: none;
+                
+                a {
+                    text-decoration: none;
+                    color: var(--color--tertiary);
+                    font-size: 1.5rem;
+                    padding: 0.5rem 0.5rem;
+
+                    &:hover {
+                        color: var(--color--emphasis);
+                    }
+                }
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--color--tertiary);
+            font-size: 1.5rem;
+            padding: 0.5rem 0.5rem;
+
+            &:hover {
+                color: var(--color--warning);
+            }
+        }
+    }
+}
